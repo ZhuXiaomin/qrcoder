@@ -1,0 +1,24 @@
+{
+  "name": "qrcoder",
+  "version": "1.0.0",
+  "description": "A simple tool to decode QRCode.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "qrcode"
+  ],
+  "author": "Nick Zhu",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "electron-packager": "^12.2.0"
+  },
+  "dependencies": {
+    "jsqr": "^1.1.1",
+    "moment": "^2.22.2",
+    "mousetrap": "^1.6.2"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>QRCoder</title>
+  </head>
+  <body>
+    <div>
+      <p>Step 1: Paste QRcode Image by Ctrl+V or Command+V.</p>
+      <p>Step 2: Get decoded text below which is already copied to clipboard.</p>
+      <hr>
+      <label for="decoded">Output: </label>
+      <p id="decoded"></p>
+      <p id="time"></p>
+    </div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
